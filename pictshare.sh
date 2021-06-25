@@ -77,6 +77,7 @@ _main() {
     #by default , always auto update and replace config.inc.php
     # cancel the job to use our own config
     #_buildConfig > inc/config.inc.php
+    _buildConfig > inc/updated.config.inc.php
 
     echo '[i] Done! Starting nginx'
 
