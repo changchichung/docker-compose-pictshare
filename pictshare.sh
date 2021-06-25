@@ -74,7 +74,8 @@ _main() {
     if [[ ${AUTO_UPDATE:=true} = true ]]; then
         _update
     fi
-
+    #by default , always auto update and replace config.inc.php
+    # cancel the job to use our own config
     #_buildConfig > inc/config.inc.php
 
     echo '[i] Done! Starting nginx'
