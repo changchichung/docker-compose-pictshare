@@ -1,0 +1,28 @@
+<?php
+define('URL', 'http://192.168.11.39:804/');
+define('TITLE', '#PictShare#');
+define('ALLOWED_SUBNET', '192.168.11.0/24');
+define('CONTENTCONTROLLERS', '');
+define('MASTER_DELETE_CODE', '');
+define('MASTER_DELETE_IP', '');
+define('UPLOAD_FORM_LOCATION', '');
+define('UPLOAD_CODE', '');
+define('LOG_UPLOADER', false);
+define('MAX_RESIZED_IMAGES',-1);
+define('ALLOW_BLOATING', false);
+define('SHOW_ERRORS', false);
+define('JPEG_COMPRESSION', 90);
+define('PNG_COMPRESSION', 6);
+define('ALT_FOLDER', '');
+define('S3_BUCKET', '');
+define('S3_ACCESS_KEY', '');
+define('S3_SECRET_KEY', '');
+define('S3_ENDPOINT', '');
+define('FTP_SERVER', '');
+define('FTP_PORT', 21);
+define('FTP_USER', '');
+define('FTP_PASS', '');
+define('FTP_SSL', false);
+define('FTP_BASEDIR', '');
+define('ENCRYPTION_KEY', '');
+define('FFMPEG_BINARY', '/usr/share/nginx/html/bin/ffmpeg');
