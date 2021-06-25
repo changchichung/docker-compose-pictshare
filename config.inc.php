@@ -1,5 +1,5 @@
 <?php
-define('URL', 'http://192.168.11.39:804/');
+define('URL', 'https://share.abc.com/');
 define('TITLE', '#PictShare#');
 define('ALLOWED_SUBNET', '192.168.11.0/24');
 define('CONTENTCONTROLLERS', '');
