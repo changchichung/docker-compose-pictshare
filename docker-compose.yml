@@ -8,9 +8,6 @@ services:
     volumes:
       - ./pictshare:/usr/share/nginx/html/data
       - ./config.inc.php:/usr/share/nginx/html/inc/config.inc.php
-        #- ./docker-compose.yml:/usr/share/nginx/html/docker-compose.yml
-        #- ./inc:/usr/share/nginx/html/inc
       - ./pictshare.sh:/pictshare.sh
 volumes:
   pictshare:
-  inc:
