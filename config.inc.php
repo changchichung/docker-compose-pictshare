@@ -1,8 +1,11 @@
 <?php
 //Sets the URL that will be shown to users for each upload. Must be set and must have tailing slash
-define('URL', 'https://share.com.tw/');
+//use your own hostname here.
+define('URL', 'https://pictshare.tw/');
+// any title you wanted
 define('TITLE', '#PictShare#');
 //If set, will only show the upload form and allow to upload via API if request is coming from this subnet
+//use your own subnet here if you want to deny upload from internet *important*
 define('ALLOWED_SUBNET', '192.168.11.0/24');
 //If set, will whitelist content controllers for your instance. Must be uppercase and can be comma separated. Example: Only Pictures: IMAGE, Pictures and Videos: IMAGE,VIDEO
 define('CONTENTCONTROLLERS', '');
