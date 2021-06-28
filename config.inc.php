@@ -1,6 +1,6 @@
 <?php
 //Sets the URL that will be shown to users for each upload. Must be set and must have tailing slash
-define('URL', 'https://share.ematters.com.tw/');
+define('URL', 'https://share.com.tw/');
 define('TITLE', '#PictShare#');
 //If set, will only show the upload form and allow to upload via API if request is coming from this subnet
 define('ALLOWED_SUBNET', '192.168.11.0/24');
